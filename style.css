@@ -1,1 +1,145 @@
-1
+@font-face {
+  font-family:Roboto;
+  src: url(assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@media (max-width: 768px) {
+  .section {
+      width: 100%;
+  }
+}
+
+  li{
+    list-style-type: none;
+  }
+  ul{
+    padding-left: 0;
+  }
+
+
+:link{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.cvphoto{
+  width: 200px;
+  height: 300px;
+}
+
+.contactname{
+  padding-top: 25px;
+}
+
+.link{
+  line-height: 0px;
+}
+
+.contain{
+  padding-left: 50px;
+  line-height: 0px;
+}
+
+a{
+  padding-left: 50px;
+  line-height: 0%;
+}
+
+h1{
+  padding-left: 50px;
+}
+
+h2{
+  padding-left: 50px;
+}
+
+.education{
+  padding-left: 50px;
+}
+
+.value{
+  padding-top: 25px;
+}
+
+.university-name{
+  font-weight: bold;
+}
+
+body{
+  display: flex;
+  position: absolute;
+  margin-top: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.contacts{
+  width: 300px;
+  height: 750px;
+  background-color: #303037;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  margin-top: -20px;
+  padding-top: 40px;
+  text-align: left;
+  font-style: normal;
+}
+
+.profile{
+  font-family: Roboto, sans-serif;
+  padding-top: 40px;
+  text-align: left;
+  width: 450px;
+}
+
+.description{
+  padding-left: 50px;
+}
+
+.lastname{
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+.firstname{
+  font: 50px bold;
+  padding-left: 50px;
+}
+
+.junfrontdev{
+  padding-left: 12px;
+  margin-left: 50px;
+  background-color: #DCDCE5;
+  border-style: none;
+  width: 200px;
+}
+
+.profile_{
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+.experience_{
+  margin-top: 50px;
+}
+
+.skills_{
+  margin-top: 50px;
+}
+
+.code_{
+  margin-top: 50px;
+}
+
+.hobbies_{
+  margin-top: 50px;
+}
+
+.hobbies{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
